@@ -85,3 +85,39 @@ button {
     border-radius: 5px;
     color: white;
 }
+
+/* RANDO */
+.rando-fact img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.rando {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+
+.rando-header {
+    display: flex;
+    justify-content: center;
+}
+
+.random-facts {
+    display: flex;
+    justify-content: center;   
+    gap: 60px;
+    text-align: center;
+}
+
+.rando-fact {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.rando p {
+    color: #1F2937;
+}
