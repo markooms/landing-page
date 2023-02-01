@@ -121,3 +121,32 @@ button {
 .rando p {
     color: #1F2937;
 }
+
+.section3 {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .quote {
+    border: 2px solid red;
+}
+
+.author {
+    border: 2px solid red;
+} */
+
+.quote p {
+    color: black;
+    font-size: 18px;
+}
+
+.author p {
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+
+}
